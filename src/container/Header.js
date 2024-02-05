@@ -3,7 +3,7 @@ import Socials from "../components/Socials";
 import { Link } from "react-scroll";
 import { navigation } from "../data/data";
 import { Fade } from "react-awesome-reveal";
-import Resume from "../assets/resume/Resume.pdf";
+// import Resume from "../assets/resume/Resume.pdf";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -24,7 +24,7 @@ const Header = () => {
   });
 
   return (
-    <div id="navbar" className="navbar-box">
+    <div id="navbar" className="navbar-box py-5">
       <div
         className={`
         ${open ? "navbar active" : "navbar"} 
@@ -35,7 +35,7 @@ const Header = () => {
         } 
          w-full h-full lg:flex lg:items-center lg:justify-between items-center`}
       >
-        <div className="list-container container mx-auto flex h-full items-center justify-between px-6">
+        <div className="list-container container flex h-full items-center justify-between px-6 mx-auto ">
           <Fade direction="down" cascade duration={150} triggerOnce="true">
             <div className="logo flex items-center h-[64px]">
               <Link
@@ -47,7 +47,7 @@ const Header = () => {
                 duration={700}
                 offset={-150}
               >
-                <h3 className="">Yu Shi</h3>
+                <h3 className="">Vishal Parmar</h3>
               </Link>
             </div>
           </Fade>
@@ -95,7 +95,7 @@ const Header = () => {
                     </li>
                   );
                 })}
-                <li className="text-white text-base font-normal cursor-pointer">
+                {/* <li className="text-white text-base font-normal cursor-pointer">
                   <a
                     href={Resume}
                     className="transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded"
@@ -104,7 +104,7 @@ const Header = () => {
                   >
                     Resume
                   </a>
-                </li>
+                </li> */}
               </ul>
             </Fade>
           </div>

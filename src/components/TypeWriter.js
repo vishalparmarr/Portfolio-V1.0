@@ -6,7 +6,7 @@ const TypeWriter = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Web Developer.", "Photographer.", "Designer."],
+      strings: ["Student.", "Web Developer.", "Coder."],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 25,

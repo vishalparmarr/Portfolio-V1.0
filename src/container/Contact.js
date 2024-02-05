@@ -24,12 +24,11 @@ const Contact = () => {
             </h4>
           </div>
           <div className="items-center text-center">
-            <a href="mailto:yushiys95@gmail.com" rel="noreferrer">
-              <button className="transition-all duration-300 hover:bg-indigo-600 text-indigo-300 hover:text-white border-2 border-indigo-600 text-2xl font-medium py-2 px-4 rounded inline-flex items-center tracking-widest">
+          
+              <button onClick={() => window.location.href = 'mailto:vishalbusiness3108@gmail.com'} className="transition-all duration-300 hover:bg-indigo-600 text-indigo-300 hover:text-white border-2 border-indigo-600 text-2xl font-medium py-2 px-4 rounded inline-flex items-center tracking-widest">
                 <img src={Email} className="mr-3 w-6" alt="svg icon" />
                 <span>Contact Me</span>
               </button>
-            </a>
           </div>
         </Fade>
       </div>

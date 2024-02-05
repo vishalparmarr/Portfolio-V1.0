@@ -21,7 +21,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <p>Designed &amp; Created by Yu Shi</p>
+            <p>Made with ❤️</p>
             <p>Built with React &amp; Tailwind CSS</p>
           </a>
         </div>
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-center items-center text-gray-400 text-center text-[10px] lg:text-xs leading-loose">
-          <p>Copyright &copy; 2023 Yu Shi All Rights Reserved.</p>
+          <p>Copyright &copy; 2023 Vishal All Rights Reserved.</p>
         </div>
       </div>
     </footer>

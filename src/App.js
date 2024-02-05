@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, } from "react";
 import "./styles/App.css";
 import Loader from "./components/Loader";
 import ScrollToTop from "./components/ScrollToTop";
-import { Header, Home, About, Projects, Skills, Blogs, Contact, Footer } from "./container"
+import { Header, Home, About, Projects, Skills, Contact, Footer } from "./container";
 
 const delay = 1.5;
 
 const App = () => {
   const [loading, setLoading] = useState(false);
-
+  
   useEffect(() => {
     let timer = setTimeout(() => setLoading(true), delay * 1000);
     return () => {
@@ -21,13 +21,13 @@ const App = () => {
       {!loading ? (
         <Loader />
       ) : (
-        <div className="portfolio">
+
+        <div className="portfolio" >
           <Header />
           <Home />
           <About />
           <Skills />
           <Projects />
-          <Blogs />
           <Contact />
           <Footer />
           <ScrollToTop />

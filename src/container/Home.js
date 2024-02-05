@@ -34,7 +34,7 @@ const Home = () => {
             <Fade direction="up" delay={400} cascade triggerOnce="true">
               <div>
                 <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-center">
-                  I'm <span className="text-indigo-600">Yu</span>
+                  I'm <span className="text-indigo-600">Vishal Parmar</span>
                 </h1>
               </div>
             </Fade>

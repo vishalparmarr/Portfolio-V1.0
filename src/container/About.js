@@ -19,8 +19,9 @@ const About = () => {
         <Fade direction="up" cascade triggerOnce="true">
           <div className="flex flex-wrap items-center">
             <div className="w-full lg:w-2/5 flex items-center justify-center">
-              <div className="w-2/3 flex justify-center mb-16">
-                <div className="profile_img"></div>
+              <div className="w-2/3 flex justify-center mb-16 w-96 h-96">
+                <div className="profile_img object-contain w-40">
+                </div>
               </div>
             </div>
             <div className="w-full lg:w-6/12 order-last">
