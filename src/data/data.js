@@ -5,6 +5,7 @@ import SkillImg4 from "../assets/img/react.png";
 import SkillImg5 from "../assets/img/c.svg";
 import SkillImg7 from "../assets/img/Git.png";
 import SkillImg9 from "../assets/img/docker.png";
+import SkillImg10 from "../assets/img/Kubernetes.png";
 // import ProjectImage1 from "../assets/img/animefans.png";
 import ProjectImage2 from "../assets/img/FundRaiser.jpg";
 import { FaLinkedin, FaMediumM } from "react-icons/fa";
@@ -91,6 +92,12 @@ export const skills = [
   {
     name: "Solidity",
   },
+  {
+    name: "Docker",
+  },
+  {
+    name: "Kubernetes",
+  },
 ];
 
 // skills image
@@ -115,6 +122,9 @@ export const skillImages = [
   },
   {
     image: SkillImg9,
+  },
+  {
+    image: SkillImg10,
   },
 ];
 

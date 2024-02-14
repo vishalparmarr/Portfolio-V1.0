@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="pb-8 flex justify-center">
           <a href="/">
-            <img className="h-14" src={Logo} alt="logo" />
+            <img className="h-24" src={Logo} alt="logo" />
           </a>
         </div>
         <div className="text-xs leading-loose tracking-wider text-gray-400 flex justify-center items-center text-center">

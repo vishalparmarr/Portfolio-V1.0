@@ -3,7 +3,7 @@ import Socials from "../components/Socials";
 import { Link } from "react-scroll";
 import { navigation } from "../data/data";
 import { Fade } from "react-awesome-reveal";
-// import Resume from "../assets/resume/Resume.pdf";
+import Resume from "../assets/resume/Resume.pdf";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -24,14 +24,14 @@ const Header = () => {
   });
 
   return (
-    <div id="navbar" className="navbar-box py-5">
+    <div id="navbar" className="navbar-box">
       <div
         className={`
         ${open ? "navbar active" : "navbar"} 
         ${
           bg || open
-            ? "backdrop-filter backdrop-blur-lg bg-opacity-30 h-16 shadow-md shadow-indigo-200/10"
-            : "h-24"
+            ? "backdrop-filter backdrop-blur-lg bg-opacity-30 h-auto shadow-md shadow-indigo-200/10"
+            : "h-20"
         } 
          w-full h-full lg:flex lg:items-center lg:justify-between items-center`}
       >
@@ -95,7 +95,7 @@ const Header = () => {
                     </li>
                   );
                 })}
-                {/* <li className="text-white text-base font-normal cursor-pointer">
+                <li className="text-white text-base font-normal cursor-pointer">
                   <a
                     href={Resume}
                     className="transition-all duration-300 border-2 px-4 py-2 hover:bg-indigo-600 text-indigo-300 hover:text-white border-indigo-600 rounded"
@@ -104,7 +104,7 @@ const Header = () => {
                   >
                     Resume
                   </a>
-                </li> */}
+                </li>
               </ul>
             </Fade>
           </div>
