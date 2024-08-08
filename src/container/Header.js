@@ -31,9 +31,9 @@ const Header = () => {
         ${
           bg || open
             ? "backdrop-filter backdrop-blur-lg bg-opacity-30 h-auto shadow-md shadow-indigo-200/10"
-            : "h-20"
+            : "h-16"
         } 
-         w-full h-full lg:flex lg:items-center lg:justify-between items-center`}
+         w-full h-14 lg:flex lg:items-center lg:justify-between items-center`}
       >
         <div className="list-container container flex h-full items-center justify-between px-6 mx-auto ">
           <Fade direction="down" cascade duration={150} triggerOnce="true">

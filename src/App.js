@@ -19,7 +19,7 @@ const App = () => {
     };
   }, [loading]);
 
-  gsap.to(".scroll-container", {
+  gsap.to("#scroll-container", {
     ease: 0.05,
     endY: 0,
     y: 0,
