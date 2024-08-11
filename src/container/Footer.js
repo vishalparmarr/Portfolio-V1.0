@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="text-xs leading-loose tracking-wider text-gray-400 flex justify-center items-center text-center">
           <a
             className="transition-all duration-300 hover:text-indigo-300"
-            href="https://github.com/yushi1007/Portfolio-2.0-Website"
+            href="https://github.com/vishalparmarr/Portfolio-V1.0"
             target="_blank"
             rel="noreferrer"
           >

@@ -3,13 +3,16 @@ import SkillImg2 from "../assets/img/CSS.png";
 import SkillImg3 from "../assets/img/JavaScript.png";
 import SkillImg4 from "../assets/img/react.png";
 import SkillImg5 from "../assets/img/c.svg";
+import SkillImg6 from "../assets/img/node.png";  
 import SkillImg7 from "../assets/img/Git.png";
 import SkillImg9 from "../assets/img/docker.png";
 import SkillImg10 from "../assets/img/Kubernetes.png";
 // import ProjectImage1 from "../assets/img/animefans.png";
 import ProjectImage2 from "../assets/img/FundRaiser.jpg";
-import { FaLinkedin, FaMediumM } from "react-icons/fa";
+import ProjectImage3 from "../assets/img/V Notes.jpg";
+import { FaLinkedin } from "react-icons/fa";
 import { FiInstagram, FiGithub } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 
 // navigation
 export const navigation = [
@@ -56,8 +59,8 @@ export const social = [
     ariaLabel: "Github",
   },
   {
-    icon: <FaMediumM />,
-    href: "https://medium.com/@vishalbusiness3108",
+    icon: <SiLeetcode />,
+    href: "https://leetcode.com/u/vishalparmarr/",
     color: "text-white",
     ariaLabel: "Medium",
   },
@@ -81,7 +84,16 @@ export const aboutMe = [
 // skills
 export const skills = [
   {
-    name: "React.JS",
+    name: "React.js",
+  },
+  {
+    name: "Node.js",
+  },
+  {
+    name: "HTML",
+  },
+  {
+    name: "CSS",
   },
   {
     name: "JavaScript",
@@ -118,6 +130,9 @@ export const skillImages = [
     image: SkillImg5,
   },
   {
+    image: SkillImg6,
+  },
+  {
     image: SkillImg7,
   },
   {
@@ -150,8 +165,20 @@ export const projects = [
     tags: ["React", "HTML", "CSS", "Solidity"],
     frontend: "",
     backend: "",
-    live: "",
+    live: "https://crowdfundraiser.netlify.app/",
     video: "",
     repo: "https://github.com/vishalparmarr/FundRaiser.git",
+  },
+
+  {
+    image: ProjectImage3,
+    name: "V Notes",
+    description: "A One Stop Solution for all the handwritten notes and other resources",
+    tags: ["Nextjs", "Tailwind", "Sanity", "TypeScript"],
+    frontend: "",
+    backend: "",
+    live: "https://www.vnotes.me/",
+    video: "",
+    repo: "https://github.com/vishalparmarr/V-Notes",
   },
 ];
