@@ -42,7 +42,7 @@ export const navigation = [
 export const social = [
   {
     icon: <FaLinkedin />,
-    href: "https://www.linkedin.com/in/parmar-vishal",
+    href: "https://www.linkedin.com/in/vishalparmarr",
     color: "text-sky-500",
     ariaLabel: "LinkedIn",
   },
@@ -177,7 +177,7 @@ export const projects = [
     tags: ["Nextjs", "Tailwind", "Sanity", "TypeScript"],
     frontend: "",
     backend: "",
-    live: "https://www.vnotes.me/",
+    live: "https://v-notes-git-main-vishal-parmars-projects.vercel.app/",
     video: "",
     repo: "https://github.com/vishalparmarr/V-Notes",
   },

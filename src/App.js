@@ -30,7 +30,7 @@ const App = () => {
   gsap.timeline({
     scrollTrigger: {
       scrub: 1,
-      trigger: ".scroll-container",
+      trigger: "#scroll-container",
       start: "top 90%",
       end: "bottom 30%",
     },

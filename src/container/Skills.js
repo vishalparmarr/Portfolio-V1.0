@@ -4,7 +4,7 @@ import { skillImages } from "../data/data";
 import Marquee from "react-fast-marquee";
 const Skills = () => {
   return (
-    <Marquee>
+    <Marquee speed={200} >
       <div
         id="skills"
         className="box bg-gray-800 text-white mt-40 flex justify-between items-center mx-auto px-6 md:px-6 lg:px-6 w-screen lg:py-12 md:10 py-8"
